@@ -1,0 +1,79 @@
+# 📈 StockZen — AI-Powered Stock Intelligence Platform
+
+🌐 Live Demo: https://deutsche-screen-emily-meanwhile.trycloudflare.com/
+
+StockZen is an AI-driven financial intelligence platform that helps retail investors make smarter, data-driven investment decisions. It transforms raw stock market data into actionable insights using machine learning, technical analysis, and sentiment analysis.
+
+---
+
+## 🚀 Problem Statement
+
+Retail investors in India often rely on tips, emotions, or incomplete information while making investment decisions. Despite the availability of large financial datasets, there is no intelligent system that converts this data into clear, actionable insights.
+
+StockZen addresses this gap by building an AI-powered intelligence layer over financial market data.
+
+---
+
+## 💡 Solution Overview
+
+StockZen provides an integrated AI system that helps users understand and predict market behavior:
+
+- 📊 **Stock Price Prediction** using Machine Learning / Deep Learning models  
+- 📉 **Technical Indicator Analysis** (RSI, MACD, Moving Averages)  
+- 🧠 **Sentiment Analysis** of financial news using NLP  
+- 📈 **Interactive Dashboard** built with Streamlit  
+- ⚡ **Actionable Insights** for retail investors  
+
+---
+
+## 🏗️ System Architecture
+
+1. **Data Collection** → Yahoo Finance API (yFinance)  
+2. **Feature Engineering** → Technical Indicators (TA library)  
+3. **Model Training** → Machine Learning / Deep Learning models  
+4. **Prediction Engine** → Forecast stock trends  
+5. **Visualization Layer** → Streamlit Dashboard  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Streamlit  
+- Pandas, NumPy  
+- Scikit-learn  
+- TensorFlow / Keras  
+- yFinance  
+- TA (Technical Analysis Library)  
+- TextBlob  
+- Matplotlib  
+
+---
+
+## 📂 Project Structure
+StockZen/
+│
+├── app.py # Main Streamlit application
+├── prediction_agent.py # ML model logic
+├── data_loader.py # Stock data fetching
+├── feature_engineering.py # Technical indicators
+├── model.pkl / model.h5 # Trained model
+│
+├── requirements.txt
+├── README.md
+│
+├── assets/
+│ └── screenshots/
+│
+└── notebooks/
+└── training.ipynb
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/bhavya2516/StockZen.git
+cd StockZen
