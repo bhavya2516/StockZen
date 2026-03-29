@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import Sequential
+from sklearn.ensemble import RandomForestRegressor
 from tensorflow.keras.layers import LSTM, Dense
 
 def predict_price(data):
